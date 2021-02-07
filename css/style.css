@@ -30,6 +30,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+    #E0FFFF
 }
 ol, ul {
 	list-style: none;
@@ -99,6 +100,7 @@ main {
     width: 66%;
     display: inline-block;
     font-size: 16px;
+    vertical-align: top;
 }
 .div45 {
     width: 100%;
@@ -116,6 +118,7 @@ main {
     width: 33%;
     display: inline-block;
     font-size: 16px;
+    vertical-align: top;
 }
 .divmain1013 {
     display: inline-block;
@@ -181,4 +184,50 @@ main {
     font-size: 16px;
     max-width: 33%;
     display: inline-block;
+    vertical-align: top;
+}
+.socialul {
+    position: absolute;
+    right: 10%;
+}
+footer ul {
+    list-style: none;
+    font-size: 0;
+}
+footer ul > li {
+    display: inline-block;
+    font-size: 16px;
+}
+footer ul > li > a {
+    display: block;
+    width: 105px;
+    height: 105px;
+    background-image: url(../images/social-icons-sprite.png);
+}
+footer a{
+	transition: ease-in 0.3s;
+}
+footer li > a {
+    background-position: 0 -105px;
+}
+footer li + li > a {
+    background-position: -105px -105px;
+}
+footer li + li + li > a {
+    background-position: -210px -105px;
+}
+footer li + li + li + li > a {
+    background-position: -315px -105px;
+}
+footer li > a:hover{
+        background-position: 0 0;
+}
+footer li + li > a:hover {
+    background-position: -105px 0;
+}
+footer li + li + li > a:hover {
+    background-position: -210px 0;
+}
+footer li + li + li + li > a:hover {
+    background-position: -315px 0;
 }

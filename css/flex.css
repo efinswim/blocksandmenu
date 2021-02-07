@@ -30,6 +30,8 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+    background-color: #E0FFFF;
+    font-family: 'Ubuntu', sans-serif;
 }
 ol, ul {
 	list-style: none;
@@ -51,8 +53,7 @@ nav {
     margin: auto;
 }
 nav ul {
-    list-style: none;
-    background-color: #DB7093;
+    background-color: #DEB887;
 }
 nav > ul > li {
     float: left;
@@ -66,10 +67,12 @@ nav ul li a {
     display: inline-block;
     padding: 10px 20px;
     text-decoration: none;
+    color: #000 !important;
     width: 125px;
+    transition: ease-in 0.3s;
 }
 nav ul li a:hover {
-    background-color: #FF1493;
+    background-color: #FFDEAD;
 }
 nav ul ul {
     display: none;
@@ -78,101 +81,68 @@ nav ul ul {
 nav ul li:hover ul {
     display: block;
 }
-main {
+.firstmainblock {
+    background-color: aqua;
     max-width: 80%;
-    margin: auto;
+    margin: 0 auto;
+    display: flex;
 }
-.clearfix::after {
-    content: '';
-    display: table;
-    clear: both;
-}
-main {
+.secondmainblock {
+    background-color: bisque;
     max-width: 80%;
-    margin: auto;
+    margin: 0 auto;
+    display: flex;
 }
-.maindiv1 {
-    background-color: #00CCFF;
-}
-.div123 {
-    float: left;
-    width: 33%;
-}
-.maindiv2 {
-    background-color: #339999;
-}
-.div45 {
-    float: left;
-    width: 67%;
-}
-.div678 {
-    float: left;
-    width: 33%;
-}
-.maindiv3 {
-    background-color: #FFE4C4;
-}
-.div9 {
-    float: left;
-    width: 33%;
-}
-.div1013 {
-    width: 67%;
-    float: right;
-}
-.div10 {
-
-}
-.div11 {
-    width: 50%;
-    float: left;
-}
-.div1213 {
-    width: 50%;
-    float: right;
-}
-.maindiv4 {
-    background-color: #33FFCC;
-}
-.div1418 {
+.firstsecondblock {
     max-width: 67%;
-    float: left;
 }
-.div14 {
-    font-size: 16px;
-}
-.div1518 {
-    font-size: 0px;
-}
-.div1517{
-    max-width: 50%;
-    float: left;
-}
-.div15 {
-    font-size: 16px;
-}
-.div1617 {
-    font-size: 0px;
-}
-.div16 {
-    width: 50%;
-    font-size: 16px;
-    float: left;
-}
-.div17 {
-    width: 50%;
-    font-size: 16px;
-    float: left;
-}
-.div18 {
-    font-size: 16px;
-    max-width: 50%;
-    float: left;
-}
-.div19 {
-    font-size: 16px;
+.secondsecondblock {
     max-width: 33%;
-    float: right;
+}
+.threemainblock {
+    background-color: #7FFFD4;
+    max-width: 80%;
+    margin: 0 auto;
+    display: flex;
+}
+.threesecondblock {
+    max-width: 33%;
+}
+.secondthreeblock {
+    max-width: 67%;
+}
+.secondblockstb {
+    display: flex;
+}
+.threeblockstb {
+    max-width: 50%;
+}
+.fourthblockstb {
+    max-width: 50%;
+}
+.fourhtmainblock {
+    background-color: #AFEEEE;
+    max-width: 80%;
+    margin: 0 auto;
+    display: flex;
+}
+.firstblockfourth {
+    max-width: 67%;
+}
+.fristsubfourth {
+    display: flex;
+}
+.blockfor1517 {
+    max-width: 50%;
+}
+.blockfor1617 {
+    display: flex;
+}
+.blockfor18 {
+    max-width: 50%;
+}
+.blockfor19 {
+    max-width: 33%;
 }
 .socialul {
     position: absolute;
